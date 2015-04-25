@@ -28,8 +28,13 @@ set guioptions-=l
 set guioptions-=L
 
 " Colorscheme
-set background=dark
-colorscheme peaksea
+if has("gui_running")
+    set background=dark
+    colorscheme jellybeans
+else
+    colorscheme jellybeans
+    let g:colors_name="jellybeans"
+endif
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

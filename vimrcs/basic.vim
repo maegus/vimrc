@@ -47,6 +47,8 @@ let mapleader = ","
 
 " Fast saving
 nmap <leader>w :w!<cr>
+" Fast quiting
+nmap `` ZZ
 
 " :W sudo saves the file
 " (useful for handling the permission-denied error)
@@ -78,6 +80,9 @@ endif
 
 " Always show current position
 set ruler
+
+"Always show line number
+set number 
 
 " Height of the command bar
 set cmdheight=1
@@ -140,7 +145,7 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme desert
+    colorscheme jellybeans
 catch
 endtry
 
