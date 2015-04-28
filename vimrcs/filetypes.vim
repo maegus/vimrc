@@ -82,5 +82,3 @@ autocmd BufRead *.twig set syntax=html filetype=html
 " => Markdown
 """"""""""""""""""""""""""""""
 let vim_markdown_folding_disabled = 1
-=======
->>>>>>> 8d0b1b13 (Add handlebar type)
