@@ -55,7 +55,6 @@ au FileType coffee call CoffeeScriptFold()
 
 au FileType gitcommit call setpos('.', [0, 1, 1, 0])
 
-
 """"""""""""""""""""""""""""""
 " => Handlebar section
 """"""""""""""""""""""""""""""
@@ -83,3 +82,5 @@ autocmd BufRead *.twig set syntax=html filetype=html
 " => Markdown
 """"""""""""""""""""""""""""""
 let vim_markdown_folding_disabled = 1
+=======
+>>>>>>> 8d0b1b13 (Add handlebar type)
